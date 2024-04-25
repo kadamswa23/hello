@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloController {
     @GetMapping("/hello")
     public ResponseEntity<String> sayHello(){
-        return ResponseEntity.ok("Hello");
+        return ResponseEntity.ok("Hello welcome to first kubernets deployment....");
     }
 
     @GetMapping("/hi")
